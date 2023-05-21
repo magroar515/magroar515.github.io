@@ -2,6 +2,13 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #fbc4ab;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
 }
 
 .navbar {
@@ -26,9 +33,14 @@ body {
   color: #fff;
 }
 
+.content {
+  flex-grow: 1;
+}
+
 footer {
   background-color: #f4978e;
   color: #fff;
   padding: 20px;
   text-align: center;
+  flex-shrink: 0;
 }
