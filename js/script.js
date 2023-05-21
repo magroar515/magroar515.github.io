@@ -17,3 +17,7 @@ projectCards.forEach(function (card) {
     animate(card, "bounce");
   });
 });
+
+// Script to update the current year in the footer dynamically
+const currentYear = new Date().getFullYear();
+document.getElementById("currentYear").textContent = currentYear;
