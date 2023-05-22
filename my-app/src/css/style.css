@@ -37,10 +37,24 @@ body {
   flex-grow: 1;
 }
 
-footer {
+.footer {
   background-color: #f4978e;
   color: #fff;
   padding: 20px;
   text-align: center;
-  flex-shrink: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer p {
+  margin-top: 0;
+  margin-bottom: 0;
 }

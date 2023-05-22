@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer>
-      <p>Copyright © 2023 Your Name</p>
+    <footer className="footer">
+      <p>&copy; {currentYear} Your Name</p>
     </footer>
   );
 };
